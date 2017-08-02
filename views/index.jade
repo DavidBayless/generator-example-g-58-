@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  div(class="blue")
+  form(method="post" action="/zombies")
+    input(type="text" name="belugawhales" placeholder="Type Something Here")
+    br
+    input(type="text" name="blue")
+    br
+    button(type="submit") Submit
